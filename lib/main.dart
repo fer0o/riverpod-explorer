@@ -1,4 +1,5 @@
 import 'package:flutter/material.dart';
+import 'package:river/pages/home_page.dart';
 
 void main() {
   runApp(const MyApp());
@@ -16,19 +17,6 @@ class MyApp extends StatelessWidget {
       themeMode: ThemeMode.dark,
       debugShowCheckedModeBanner: false,
       home: const MyHomePage(),
-    );
-  }
-}
-
-class MyHomePage extends StatelessWidget {
-  const MyHomePage({super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return Scaffold(
-      appBar: AppBar(
-        title: Text('Riverpod Explorer!'),
-      ),
     );
   }
 }
